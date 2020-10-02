@@ -16,4 +16,6 @@ Name: [Devanshi Katyal](https://github.com/devanshi-katyal) <br/>
 Place: India <br/>
 Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
-
+Name: [Mohit Gudivada](https://github.com/praveen-01) <br/>
+Place: India <br/>
+Contibution: Basic Calculator(python) <br/>
