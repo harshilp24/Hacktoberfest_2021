@@ -17,3 +17,8 @@ Place: India <br/>
 Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
 
+Name: [Suraj Kumar](https://github.com/Surajkumar573) <br/>
+Place: India <br/>
+Contribution: Prims mst, Binary search, Linear search, Merge sort(Algorithms), bubble sort(Python), Game of Dice(javascript)<br/>
+
+
