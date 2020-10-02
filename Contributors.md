@@ -17,3 +17,6 @@ Place: India <br/>
 Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
 
+Name: [Ankita Ugale](https://github.com/ankitaugale23) <br/>
+Place: India <br/>
+Contribution: Anagram program (c++), printCharactersAfterDecimalPoint(c++) <br/>
