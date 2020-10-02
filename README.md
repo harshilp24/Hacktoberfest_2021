@@ -23,6 +23,7 @@ Getting Started
 Add your name to the CONTRIBUTORS.md file using following model
 Name: [YOUR NAME](Github Link)
 Place: city you belong to
+Contribution : Issues/Update/New Feature 
 About: Short Intro (Optional)
 Support
 Check Contribution Guide Before Contribution.
@@ -34,7 +35,6 @@ Make sure you have a GitHub account. In case you don't have one, you can create 
 Link to register: https://hacktoberfest.digitalocean.com/
 Click on "Start Hacking" and add your GitHub account.
 
-Screenshot-HFST
 
 2. Star and Fork this Repository
 You can star and fork this repository on GitHub by navigating at the top of this repository.
