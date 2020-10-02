@@ -18,6 +18,6 @@ Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
 Name: [Gaurav ](https://github.com/gaurav101b) <br/>
 Place: India <br/>
-Contribution: merge sort(c++)<br/>
+Contribution: merge sort(c++), quick_sort(c++)<br/>
 
 
