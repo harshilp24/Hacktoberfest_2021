@@ -22,8 +22,7 @@ To qualify for the official limited edition Hacktoberfest shirt, you must regist
 Getting Started
 Add your name to the CONTRIBUTORS.md file using following model
 Name: [YOUR NAME](Github Link)
-
-Place: city you belong to
+Place: city you belong to,
 Contribution : Issues/Update/New Feature 
 About: Short Intro (Optional)
 Support
