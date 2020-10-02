@@ -1,6 +1,22 @@
 # Hacktoberfest_2020
 
-HacktoberFest-2020
+> [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
+
+<br />
+<p align="center">
+  <a href="https://hacktoberfest.digitalocean.com/">
+    <img src="https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png" alt="Logo">
+  </a>
+</p>
+
+<!-- [![Hacktoberfest 2019 logo](https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png)](https://hacktoberfest.digitalocean.com/) -->
+
+## Official website for registration and tips on how to get started
+
+- [Hacktoberfest Official Website](https://hacktoberfest.digitalocean.com/)
+- [Hacktoberfest Tutorial](https://youtu.be/0mjJS1Y8wrI) - Introduction to Hacktoberfest
+- [Hacktoberfest Swag List](https://benbarth.github.io/hacktoberfest-swag/) - List of all goodies given away by companies
+
 Repository designed for beginner to contribute to open-source
 
 https://hacktoberfest.digitalocean.com/
