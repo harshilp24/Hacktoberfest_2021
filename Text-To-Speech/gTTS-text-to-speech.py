@@ -1,5 +1,6 @@
 # Text-To-Speech Using gTTS API
 # Use: pip install gTTS
+# Use: pip install playsound
 # Run this program in the command line:
 # python gTTS-text-to-speech.py "<text>" "<output filename>" --language --slow
 
