@@ -4,40 +4,49 @@
 # python gTTS-text-to-speech.py "<text>" "<output filename>" --language --slow
 
 from gtts import gTTS
+from playsound import playsound
 from sys import argv, exit
 import os
 
-speech = {
+speechSettings = {
     "text": None,
-    "output": None,
+    "output": "speech only",
     "language": 'en',
     "slow": False
     }
-#language = 'en'
-
-#speech = gTTS(text=textInput, lang=language, slow=True)
-
-#speech.save("welcome.mp3")
-
-#print("Playing audio")
-#os.system("mpg321 welcome.mp3")
 
 def main():
-    if len(argv) < 3 or len(argv) > 4:
-        print("Usage: python gTTS-text-to-speech.py \"<text>\" \"<output filename>\" --language --slow")
+    if len(argv) < 2 or len(argv) > 3:
+        print("Usage: python gTTS-text-to-speech.py \"<text>\" --\"<output filename>\"")
         exit()
-    
+
 def retrieveText():
-    speech["text"] = argv[1]
-    print("speech[\"text\"] = " + speech["text"])
+    speechSettings["text"] = argv[1]
 
-def saveOutput():
-    speech["output"] = argv[2]
-    print("speech[\"output\"] = " + speech["output"])
-
-def configuration():
-    print("test")
+def retrieveOutputLocation():
+    if len(argv) == 3:
+        if argv[2][0] != "-" and argv[2][1] != "-":
+            print("Usage: python gTTS-text-to-speech.py \"<text>\" --\"<output filename>\"")
+            exit()
+        saveFile = argv[2]
+        speechSettings["output"] = saveFile.strip("--")
     
+def output():
+    speech = gTTS(text=speechSettings["text"], lang=speechSettings["language"], slow=speechSettings["slow"])
+
+    if speechSettings["output"] == "speech only":
+        speech.save("output.mp3")
+        playsound("output.mp3")
+        os.remove("output.mp3")
+
+    else:
+        try:
+            speech.save(speechSettings["output"])
+            playsound(speechSettings["output"])
+        except:
+            print("Output file path could not be found")
+        
 main()
 retrieveText()
-
+retrieveOutputLocation()
+output()
