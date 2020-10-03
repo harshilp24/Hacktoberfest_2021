@@ -16,6 +16,19 @@ Name: [Devanshi Katyal](https://github.com/devanshi-katyal) <br/>
 Place: India <br/>
 Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
-Name: [Mohit Gudivada](https://github.com/praveen-01) <br/>
+
+Name: [Meekha E Saji](https://github.com/meekhasaji) <br/>
 Place: India <br/>
-Contibution: Basic Calculator(python) <br/>
+Contribution: Bubble Sort (python) Contactme.html simple page<br/>
+
+Name: [Gaurav ](https://github.com/gaurav101b) <br/>
+Place: India <br/>
+Contribution: merge sort(c++), quick_sort(c++)<br/>
+
+
+Name: [Suraj Kumar](https://github.com/Surajkumar573) <br/>
+Place: India <br/>
+Contribution: Prims mst, Binary search, Linear search, Merge sort(Algorithms), bubble sort(Python), Game of Dice(javascript)<br/>
+
+
+
