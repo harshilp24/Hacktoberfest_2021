@@ -1,22 +1,11 @@
-import speech_recognition as sr
+from gtts import gTTS
+from playsound import playsound
+import os
 
-r = sr.Recognizer()
-mic = sr.Microphone()
+Input = input("Enter what you want to be converted to speech >> ")
 
-def recognize_sound():
-    with mic as source:
-        audio = r.listen(source)
-    
-    try:
-        recog = r.recognize_google(audio)
-        return recog
-    except:
-        return "Error"
+tts = gTTS(Input, lang='en', slow=False)
 
-
-while True:
-    a = input("Recognize Sound? y/n  ")
-    if a == "y":
-        print(f"\n\n{recognize_sound()}")
-    else:
-        exit()
+tts.save("text2speech.mp3") 
+playsound('text2speech.mp3')
+os.remove("text2speech.mp3")
