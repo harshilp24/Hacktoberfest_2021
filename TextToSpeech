@@ -1,0 +1,7 @@
+from gtts import gTTS
+import os
+txt = 'HELLO WORLD!'
+language = 'en'
+myobj = gTTS(text=txt, lang=language, slow=False) 
+myobj.save("hw.mp3") 
+os.system("mpg321 hw.mp3")
