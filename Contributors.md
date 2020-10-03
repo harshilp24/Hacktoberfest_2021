@@ -16,7 +16,7 @@ Name: [Devanshi Katyal](https://github.com/devanshi-katyal) <br/>
 Place: India <br/>
 Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
-<<
+
 Name: [Meekha E Saji](https://github.com/meekhasaji) <br/>
 Place: India <br/>
 Contribution: Bubble Sort (python) Contactme.html simple page<br/>
