@@ -30,5 +30,7 @@ Name: [Suraj Kumar](https://github.com/Surajkumar573) <br/>
 Place: India <br/>
 Contribution: Prims mst, Binary search, Linear search, Merge sort(Algorithms), bubble sort(Python), Game of Dice(javascript)<br/>
 
-
+Name: [Brian Corbett (Pharcside)](https://github.com/Pharcside) <br/>
+Place: United State <br/>
+Contribution: Added HTML Folder to add any HTML content, <br/>
 
