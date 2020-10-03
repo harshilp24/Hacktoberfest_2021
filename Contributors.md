@@ -31,4 +31,6 @@ Place: India <br/>
 Contribution: Prims mst, Binary search, Linear search, Merge sort(Algorithms), bubble sort(Python), Game of Dice(javascript)<br/>
 
 
-
+Name: [Sarthak Jha](https://github.com/Sarthak-Jha) <br/>
+Place: India <br/>
+contributions: pigeonholeSort(python), bucketSort(python)
