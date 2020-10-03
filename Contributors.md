@@ -30,6 +30,10 @@ Name: [Suraj Kumar](https://github.com/Surajkumar573) <br/>
 Place: India <br/>
 Contribution: Prims mst, Binary search, Linear search, Merge sort(Algorithms), bubble sort(Python), Game of Dice(javascript)<br/>
 
+Name: [Mohanish Kashiwar](https://github.com/mk1107) <br/>
+Place: India <br/>
+Contribution: Bubble sort(c++), Fibonacci Search(c++)<br/>
+
 
 Name: [Sarthak Jha](https://github.com/Sarthak-Jha) <br/>
 Place: India <br/>
