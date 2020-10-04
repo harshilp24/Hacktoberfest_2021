@@ -38,3 +38,7 @@ Contribution: Bubble sort(c++), Fibonacci Search(c++)<br/>
 Name: [Sarthak Jha](https://github.com/Sarthak-Jha) <br/>
 Place: India <br/>
 contributions: pigeonholeSort(python), bucketSort(python)
+
+Name: [Anatolii Cheredncihenko](https://github.com/d351d3r) <br/>
+Place: Russia <br/>
+Contribution: Format README.MD<br/>
