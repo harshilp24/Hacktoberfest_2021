@@ -50,3 +50,7 @@ Name: [Christa Bridges](https://github.com/cBridges851) <br/>
 Place: United Kingdom <br/>
 Contribution: text to speech (python) using gTTS <br/>
 
+Name: [K Shakthi Dhar Reddy](https://github.com/Shakthi-Dhar) <br/>
+Place: India <br/>
+Contribution: Sentiment Analysis (python) <br/>
+
