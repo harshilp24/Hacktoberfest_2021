@@ -5,7 +5,8 @@ __author__ = 'Dmitriy Bulygin'
 
 """
 This script connecting to one server and some user names. 
-Deleted messages for some days before [8 days] from 'BACKUP' dir
+Deleted messages for some days before (variable beforeDate) 
+from 'BACKUP' group in mailserver
 
 demetrius.storm@gmail.com, https://github.com/DemetriusStorm 
 """
@@ -30,7 +31,8 @@ def mail_connector(username=None, password=None):
         mail.select('BACKUP')
         typ, data = mail.uid('SEARCH', beforeDateString)
         assert typ == 'OK'
-        print(username, typ, data)
+        # For test
+        # print(username, typ, data)
         if data:
             for uid in data[0].split():
                 print(str(uid))
