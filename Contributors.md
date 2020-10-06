@@ -54,3 +54,6 @@ Name: [K Shakthi Dhar Reddy](https://github.com/Shakthi-Dhar) <br/>
 Place: India <br/>
 Contribution: Sentiment Analysis (python) <br/>
 
+Name: [Neeraj Bhadani](https://github.com/neeraj-bhadani) <br/>
+Place: India <br/>
+Contribution: Web Scraper App using Selenium and Flask<br/>
