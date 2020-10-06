@@ -17,6 +17,10 @@ Place: India <br/>
 Contribution: kadanes algorithm(c++), finding least positive number(Python)<br/>
 
 
+Name: [Ankita Ugale](https://github.com/ankitaugale23) <br/>
+Place: India <br/>
+Contribution: Anagram program (c++), printCharactersAfterDecimalPoint(c++) <br/>
+
 Name: [Meekha E Saji](https://github.com/meekhasaji) <br/>
 Place: India <br/>
 Contribution: Bubble Sort (python) Contactme.html simple page<br/>
