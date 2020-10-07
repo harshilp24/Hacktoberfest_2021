@@ -6,7 +6,7 @@ The library can be installed using:
 pip install pyshorteners
 
 In the given code
-to show the functioning of the code, this url was input:
+, this url was input:
 
 https://github.com/its-harshil/Hacktoberfest_2020
 
