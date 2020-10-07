@@ -1,6 +1,6 @@
 ### url shortener
 
-This is a simple code which converts a long url to shortened tinyurl version using pyshortener library in Python.
+This is a simple code which converts a long url to a shortened tinyurl version using pyshortener library in Python.
 
 The library can be installed using:
 pip install pyshorteners
