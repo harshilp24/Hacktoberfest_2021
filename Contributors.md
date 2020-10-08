@@ -61,3 +61,7 @@ Contribution: Sentiment Analysis (python) <br/>
 Name: [Neeraj Bhadani](https://github.com/neeraj-bhadani) <br/>
 Place: India <br/>
 Contribution: Web Scraper App using Selenium and Flask<br/>
+
+Name: [Toh De Kai](https://github.com/TohDeKai) <br/>
+Place: Singapore <br/>
+Contribution: Check valid phone number (python), rock paper scissors (python)
