@@ -61,3 +61,7 @@ Contribution: Sentiment Analysis (python) <br/>
 Name: [Neeraj Bhadani](https://github.com/neeraj-bhadani) <br/>
 Place: India <br/>
 Contribution: Web Scraper App using Selenium and Flask<br/>
+
+Name: [SentiWW](https://github.com/SentiWW) <br/>
+Place: Poland <br/>
+Contribution: SpeedTypingTestConsole (C#)<br/>
