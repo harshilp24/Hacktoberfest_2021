@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        body{
+            background: #000000;
+        }
+        form{
+            padding-top: 30vh;
+        }
+    </style>
+</head>
+<body class="text-white">
+    <div class="container text-center">
+        <img src="images/speech-bubble.png" style="height: 5vh; width: auto; margin-top: 2em;"  alt="">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <textarea name="" id="text-input" class="form-control form-control-lg" placeholder="Type or Copy Anytext..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="rate">Rate</label>
+                        <div id="rate-value" class="badge badge-primary float-right">1</div>
+                        <input type="range" id="rate" class="custom-range" min="0.5" max="2" value="1" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="pitch">Pitch</label>
+                        <div id="pitch-value" class="badge badge-primary float-right">1</div>
+                        <input type="range" id="pitch" class="custom-range" min="0" max="2" value="1" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <select id="voice-select" class="form-control form-control-lg"></select>
+                    </div>
+                    <button class="btn  btn-light btn-lg btn-block">Speak It</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
