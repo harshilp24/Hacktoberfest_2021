@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title></title>
+</head>
+
+<body class="bg-light">
+	<!--header part-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Webest</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+			aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1 class="my-4" style="margin-left: 9%;">Welcome to Webest</h1>
+	</div>
+
+	<div class="container">
+
+		<!--URL part-->
+		<div class="form-group row">
+			<label for="inputURL" style="padding-left: 10%;" class="col-sm-2 col-form-label">URL</label>
+			<div class="col-sm-8">
+				<input type="text" class="form-control" id="inputURL" onkeyup="onClear()"
+					placeholder="Please enter your URL here">
+			</div>
+		</div>
+
+		<!--Request Type part-->
+		<fieldset>
+			<div class="row">
+				<legend style="padding-left: 10%;" class="col-form-label col-sm-2 pt-0">Request Type</legend>
+				<div class="col-sm-10">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="requestType" id="get" value="get" checked>
+						<label class="form-check-label" for="get">
+							GET
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="requestType" id="post" value="post">
+						<label class="form-check-label" for="post">
+							POST
+						</label>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+
+		<!--Content Type part-->
+		<fieldset>
+			<div class="row">
+				<legend style="padding-left: 10%;" class="col-form-label col-sm-2 pt-0">Content Type</legend>
+				<div class="col-sm-10">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="contentType" id="json" value="json" checked>
+						<label class="form-check-label" for="json">
+							JSON
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="contentType" id="custom" value="custom">
+						<label class="form-check-label" for="custom">
+							Custom Parameters
+						</label>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+
+		<!--Adding custom parameter part: Enables only if Custom Parameters radio button is checked-->
+		<div class="customParamBox" id="customParamBox">
+			<div class="form-row">
+				<label for="parameter1" style="padding-left: 9%;" class="col-sm-2 col-form-label">Paramter 1</label>
+				<div class="col-md-4">
+					<input type="text" class="form-control" id="parameter1-key" placeholder="Enter Parameter 1 Key">
+				</div>
+				<div class=" col-md-4">
+					<input type="text" class="form-control" id="parameter1-value" placeholder="Enter Parameter 1 Value">
+				</div>
+				<button id="addParam" class="btn btn-primary">+</button>
+			</div>
+			<div id="newParam"></div>
+		</div>
+
+		<br>
+
+		<!--Adding json part: Enables only if JSON radio button is checked-->
+		<div class="jsonBox" id="jsonBox">
+			<div class="form-group row">
+				<label for="jsonText" style="padding-left: 9.5%;" class="col-sm-2 col-form-label">JSON Text</label>
+				<div class="col-sm-8">
+					<textarea class="form-control" id="jsonText" rows="4"></textarea>
+				</div>
+			</div>
+		</div>
+
+		<div class="submitJsonResponse" style="margin-left: 10%;">
+			<div class="form-group row">
+				<button id="sendJsonResp" class="btn btn-primary">Submit Request</button>
+			</div>
+		</div>
+
+		<!--Adding get data part: displays the data when get request is made-->
+		<div class="getJsonBox" id="getJsonBox">
+			<div class="form-group row">
+				<label for="getJsonText" style="padding-left: 9.5%;" class="col-sm-2 col-form-label">GET
+					Response</label>
+				<div class="col-sm-8">
+					<textarea class="form-control" id="getJsonText" rows="6"></textarea>
+				</div>
+				<div>
+					<button id="copyText" onclick="onCopy()" class="btn btn-primary">Copy Text</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
