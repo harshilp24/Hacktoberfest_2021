@@ -1,1 +1,1 @@
-Linked list implementation of stack 
+Linked list implementation of stack
