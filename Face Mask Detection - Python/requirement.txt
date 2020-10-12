@@ -1,0 +1,3 @@
+pip install tensorflow
+pip install imutils
+pip install opencv-python
