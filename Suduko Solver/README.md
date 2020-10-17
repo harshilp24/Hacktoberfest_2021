@@ -3,8 +3,6 @@
 A program to solve a Sudoku puzzle by filling the empty cells.
 Empty cells are indicated by the character '.'
 
-Problem is on Interviewbit. [Link](https://www.interviewbit.com/problems/sudoku/)
-
 ### Example
 #### Input: 
 
