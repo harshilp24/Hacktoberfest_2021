@@ -71,3 +71,7 @@ Name: [SentiWW](https://github.com/SentiWW) <br/>
 Place: Poland <br/>
 Contribution: SpeedTypingTestConsole (C#)<br/>
 
+Name: [Devwanto Dariel Nugroho](https://github.com/fortoszone) <br/>
+Place: Indonesia <br/>
+Contribution: Circular Queue operation in C<br/>
+
