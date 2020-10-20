@@ -23,3 +23,4 @@ int main(void) {
    cout<< num <<" is present at index "<< index <<" in the array";
    return 0;
 }
+O/p:is present at index 1 in the array
