@@ -1,10 +1,17 @@
+#header {
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 200px;
+  background-image: url("../public/header.jpg"); /*  this is the image from your header/banner */
+}
+
 .card {
     border: none;
     padding-left: 150px;
     padding-top: 150px;
 }
 
-header {
+#message {
  margin-top: 50px;
  margin-bottom: 50px;
 }
