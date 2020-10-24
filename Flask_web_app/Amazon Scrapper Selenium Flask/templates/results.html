@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <div class="table-users" style="padding:20px">
+   <div class="header">Book Details</div>
+         {% for review in reviews %}
+        <div class="card mb-3">
+            <img class="card-img" style="height:300px" src="{{review['image_src']}}" alt="Card image">
+            <div class="card-body">
+                <h5 class="card-title">{{review['title']}}</h5>
+                <p class="card-text"><small class="text-muted">{{review['author']}}</small></p>
+                <p class="card-text">{{review['description']}}</p>
+                <p class="card-text"><small class="text-muted">{{review['price']}}</small></p>
+            </div>
+        </div>
+      <hr>
+       {% endfor %}
+</div>
+</body>
+</html>
