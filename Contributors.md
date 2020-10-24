@@ -75,3 +75,8 @@ Name: [Devwanto Dariel Nugroho](https://github.com/fortoszone) <br/>
 Place: Indonesia <br/>
 Contribution: Circular Queue operation in C<br/>
 
+Name: [Krishna Sashank](https://github.com/k-sashank) <br/>
+Place: India <br/>
+Contribution: Fibonacci Series (Python)<br/>
+
+
