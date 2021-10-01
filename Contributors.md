@@ -38,6 +38,10 @@ Name: [Mohanish Kashiwar](https://github.com/mk1107) <br/>
 Place: India <br/>
 Contribution: Bubble sort(c++), Fibonacci Search(c++)<br/>
 
+Name: [Vidnyani Umathe](https://github.com/vidnyani) <br/>
+Place: India <br/>
+Contribution: Rock Paper Scissors using python<br/>
+
 
 Name: [Sarthak Jha](https://github.com/Sarthak-Jha) <br/>
 Place: India <br/>
