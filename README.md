@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://hacktoberfest.digitalocean.com/">
-    <img src="https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png" alt="Logo">
+    <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Logo">
   </a>
 </p>
 
