@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock,Paper,Scissors</title>
+  </head>
+  <body>
+    <audio
+      src="./Sounds/zapsplat_multimedia_button_click_007_53868.mp3"
+      class="click-sound"
+    ></audio>
+    <audio
+      src="./Sounds/mixkit-winning-chimes-2015.wav"
+      class="win-sound"
+    ></audio>
+    <audio
+      src="./Sounds/mixkit-negative-answer-lose-2032.wav"
+      class="loss-sound"
+    ></audio>
+    <header>
+      <div class="container">
+        <h1 class="main-heading">Rock, Paper, Scissors?</h1>
+        <p class="description">
+          Play against the computer in Rock Paper Scissors.
+          <span>First to 5 wins!</span>
+        </p>
+        <p class="score-message"></p>
+        <p class="message"></p>
+      </div>
+    </header>
+    <main>
+      <div class="player-images">
+        <h2>Player</h2>
+        <img src="./Img/user-solid-grey.svg" alt="Player Image" />
+        <p class="score">Score: <span class="player-score">0</span></p>
+        <div class="btn-container">
+          <div class="button player-button player-rock">
+            <span>Rock</span>
+            <img
+              src="./Img/hand-rock-grey.svg"
+              alt="Rock"
+              class="player-image"
+            />
+          </div>
+          <div class="button player-button player-paper">
+            <span>Paper</span>
+            <img
+              src="./Img/hand-paper-grey.svg"
+              alt="Paper"
+              class="player-image"
+            />
+          </div>
+          <div class="button player-button player-scissors">
+            <span>Scissors</span>
+            <img
+              src="./Img/hand-scissors-grey.svg"
+              alt="Scissors"
+              class="player-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="computer-images">
+        <h2>Computer</h2>
+        <img src="./Img/laptop-solid-grey.svg" alt="Laptop Image" />
+        <p class="score">Score: <span class="computer-score">0</span></p>
+        <div class="btn-container">
+          <div class="button computer-button computer-rock">
+            <span>Rock</span>
+            <img src="./Img/hand-rock-grey.svg" alt="Rock" />
+          </div>
+          <div class="button computer-button computer-paper">
+            <span>Paper</span>
+            <img src="./Img/hand-paper-grey.svg" alt="Paper" />
+          </div>
+          <div class="button computer-button computer-scissors">
+            <span>Scissors</span>
+            <img src="./Img/hand-scissors-grey.svg" alt="Scissors" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

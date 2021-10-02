@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 50px;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Roboto";
+  display: grid;
+  place-items: center;
+  background-image: url("./Img/black-bg.jpg");
+  height: 100%;
+  color: #faf7ff;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  gap: 3em;
+}
+
+.main-heading {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.score-message {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.message {
+  color: #8685ef;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.player-images,
+.computer-images {
+  padding: 2em;
+  background-color: #324b4c;
+  margin-top: 5em;
+  min-width: 330px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 2em;
+}
+
+.score {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  margin-left: 11em;
+}
+
+.player-images .score {
+  margin-left: 12em;
+}
+
+.button {
+  height: 100px;
+  width: 85px;
+  display: grid;
+  border-radius: 3px;
+  place-items: center;
+  background-color: rgb(51, 51, 51);
+  box-shadow: 5px 5px 1px 0 black;
+}
+
+.player-button {
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.player-button:hover {
+  box-shadow: 4px 4px 1px 0 black;
+  transform: scale(0.92);
+}
+
+.player-button:active {
+  box-shadow: 5px 5px 1px 0 black;
+  transform: scale(1.1);
+  transition: 0.25s all ease-in-out;
+}
+
+span {
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5em;
+    gap: 3em;
+  }
+  .player-images,
+  .computer-images {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+  .score {
+    margin-left: 12em;
+  }
+
+  .player-images .score {
+    margin-left: 13.5em;
+  }
+}
+
+.final-message {
+  font-size: 3rem;
+  text-align: center;
+  max-width: 90%;
+  color: #fff;
+  margin-top: 40vh;
+  line-height: 1;
+}
+
+.reset-btn {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #8685ef;
+  margin-top: 2.5em;
+}
+
+.reset-btn:hover {
+  transition: 0.4s all ease-in-out;
+  transform: scale(1.2);
+}
