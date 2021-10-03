@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+   
+        
+        <style>
+        
+
+
+.main-container-3
+ {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.flexbox-3 {
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+
+#flex-rps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flexbox-3 img:hover {
+  box-shadow: 0px 10px 50px blueviolet;
+}
+
+
+          </style>
+    </head>
+
+    <body>
+        <div class="main-container-3">
+            <h2>Rock Paper Scissors Game</h2>
+            <div class="flexbox-3" id="flex-rps">
+                <img id="rock" src="https://image.shutterstock.com/image-photo/stone-on-white-background-260nw-1187945116.jpg" height=150px width=150px onclick="rpsGame(this)">
+              <img id="paper" src="    https://previews.123rf.com/images/mexrix/mexrix1110/mexrix111000101/11096544-list-of-paper.jpg" height=150px width=150px onclick="rpsGame(this)">
+            <img id="scissor" src="https://image.shutterstock.com/image-photo/childrens-colorful-scissors-on-white-260nw-707504752.jpg" height=150px width=150px onclick="rpsGame(this)">
+        
+           
+            
+        
+        </div>
+        </div>
+
+    <script>
+
+
+function rpsGame(choice){
+ 
+ var humanc,botc;
+ humanc=choice.id;
+ botc=nbchoose(rndm());
+results=decidewinner(humanc,botc);
+message=finalMessage(results);
+rpsFrontEnd(humanc,botc,message);
+}
+function rndm(){
+    return Math.floor(Math.random()*3);
+
+}
+function nbchoose(number){
+    return ['rock','paper','scissor'][number];
+}
+function decidewinner(humanchoice,botchoice)
+{
+   var rpsDatabase={
+       'rock':{'paper':0,'rock':0.5,'scissor':1},
+       'paper':{'rock':1,'paper':0.5,'scissor':0},
+       'scissor':{'rock':0,'paper':1,'scissor':0.5}
+   } 
+   var humanscore=rpsDatabase[humanchoice][botchoice];
+   var botscore=rpsDatabase[botchoice][humanchoice];
+   return [humanscore,botscore];
+}
+function finalMessage([humanscore,botscore]){
+    if(humanscore==0)
+   { return {'message':'you lost!','color':'red'};}
+    else if(humanscore==0.5)
+    {return {'message':'its a tie','color':'yellow'};}
+    else
+    {return {'message':'you won','color':'green'};}
+}
+function rpsFrontEnd(humanIc,botIc,finalMessage){
+    var imagesDatabase={
+        'rock':document.getElementById('rock').src,
+        'paper':document.getElementById('paper').src,
+        'scissor':document.getElementById('scissor').src
+    }
+    document.getElementById('rock').remove();
+    document.getElementById('paper').remove();
+    document.getElementById('scissor').remove();
+
+    var humandiv=document.createElement('div');
+    var botdiv=document.createElement('div');
+    var messagediv=document.createElement('div');
+
+    humandiv.innerHTML = "<img src='" + imagesDatabase[humanIc] + "' height=150 width=150 style='box-shadow: 0px 10px 50px rgba(37,50,233,1);'>"
+    messagediv.innerHTML="<h1 style='color: "  + finalMessage['color'] + "; font-size:60px; padding:30px;'>" + finalMessage['message'] +  "</h1>"
+    botdiv.innerHTML= "<img src='" + imagesDatabase[botIc] + "' height=150 width=150 style='box-shadow: 0px 10px 50px rgba(243,30,24,1);'>"
+
+     document.getElementById('flex-rps').appendChild(humandiv);
+     document.getElementById('flex-rps').appendChild(messagediv);
+     document.getElementById('flex-rps').appendChild(botdiv);
+
+}
+    </script>
+    </body>
+    </html>
