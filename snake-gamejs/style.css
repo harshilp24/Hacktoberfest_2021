@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+
+html {
+    background-color: #121212;
+}
+
+div {
+    padding: 50px;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: aliceblue;
+}
+
+canvas {
+    border: 1px;
+    border-radius: 12px;
+}
