@@ -1,0 +1,114 @@
+<!-- Made by Nitin Kushwaha -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock</title>
+</head>
+<body class="theme-dark">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div id="clock-a">
+                    <div id="hr">
+                        <div id="h"></div>
+                    </div>
+                    <div id="min">
+                        <div id="m"></div>
+                    </div>
+                    <div id="sec">
+                        <div id="s"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card-back">
+                <div id="clock-d"></div>
+            </div>
+        </div>
+    </div>
+    <div id="change">Digital</div>
+    <div id="theme">Light</div>
+    <div class="settingapp">
+        <div id="setting-icon">&#x2699;</div>
+        <div id="setting-window">
+            <div id="setting-nav" class="setting-container">
+                <h3>SETTINGS</h3>
+                <ul>
+                    <li><a href="#Hsize">Size</a></li>
+                    <li><a href="#Hbackground">Background</a></li>
+                    <li><a href="#Hshadow">Shadow</a></li>
+                    <li><a href="#Hhandcolor">Hand Color</a></li>
+                    <li><a href="#Hborder">Border</a></li>
+                </ul>
+            </div>
+            <div id="settings" class="setting-container">
+                <div class="box">
+                    <h3 id="Hsize">Size</h3>
+                    <div class="inner-box">
+                        <input type="range" name="" id="size" min="0.5" max="1.5" step="0.1" value="1">
+                        <label for="size">1</label>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 id="Hbackground">Background</h3>
+                    <div class="inner-box">
+                        <input type="color" name="" id="background" value="#202020">
+                        <!-- <input type="text" name="" id="background-text"> -->
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 id="Hshadow">Shadow</h3>
+                    <div class="inner-box">
+                        <div class="inner-container">
+                            <label for="shadow-blur">Blur</label>
+                            <input type="number" name="" id="shadow-blur" min="0" max="100" value="100">
+                        </div>
+                        <div class="inner-container">
+                            <label for="shadow-blur">Color</label>
+                            <input type="color" name="" id="shadow-color" value="#00ffff">
+                            <!-- <input type="text" name="" id="shadow-color-text"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 id="Hhandcolor">Hand color</h3>
+                    <div class="inner-box">
+                        <div class="inner-container">
+                            <label for="hr-color">Hour</label>
+                            <input type="color" name="" id="hr-color" value="#e623c8">
+                            <!-- <input type="text" name="" id="hr-color-text"> -->
+                        </div>
+                        <div class="inner-container">
+                            <label for="min-color">Minute</label>
+                            <input type="color" name="" id="min-color" value="#003cff">
+                            <!-- <input type="text" name="" id="min-color-text"> -->
+                        </div>
+                        <div class="inner-container">
+                            <label for="sec-color">Second</label>
+                            <input type="color" name="" id="sec-color" value="#ffffff">
+                            <!-- <input type="text" name="" id="sec-color-text"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 id="Hborder">Border</h3>
+                    <div class="inner-box">
+                        <div class="inner-container">
+                            <label for="border-width">Width</label>
+                            <input type="number" name="" id="border-width" min="0" max="15" value="5">
+                        </div>
+                        <div class="inner-container">
+                            <label for="border-color">Color</label>
+                            <input type="color" name="" id="border-color" value="#000000">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
