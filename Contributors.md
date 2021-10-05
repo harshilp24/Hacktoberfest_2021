@@ -77,3 +77,7 @@ Contribution: Fibonacci Series (Python)<br/>
 Name: [Muhammad Raza Khan](https://github.com/BlizZard-bot/)
 Place: India <br/>
 Contribution: Rock Paper Scissors (Javascript)<br/>
+
+Name: [Dhananjay Mahtha](https://github.com/dhananjay8968
+Place: India <br/>
+Contribution: GUI Calculator (Javascript)<br/>
