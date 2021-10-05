@@ -78,6 +78,6 @@ Name: [Muhammad Raza Khan](https://github.com/BlizZard-bot/)
 Place: India <br/>
 Contribution: Rock Paper Scissors (Javascript)<br/>
 
-Name: [Noel Johnson](https://github.com/noel-johnson/)
+Name: [Noel Johnson](https://github.com/noel-johnson/) <br/>
 Place: India <br/>
 Contribution: Calculator (Javascript)<br/>
