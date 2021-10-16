@@ -1,5 +1,7 @@
 # Hacktoberfest_2021
 
+Note: that your PR will no longer be considered for the fest.
+
 > [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
 
 <br />
