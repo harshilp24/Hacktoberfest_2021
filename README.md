@@ -1,6 +1,6 @@
 # Hacktoberfest_2021
 
-Note: that your PR will no longer be considered for the fest, you can still add your codes/algo/projects for others to learn and explore.
+### Note: that your PR will no longer be considered for the fest, you can still add your codes/algo/projects for others to learn and explore.
 
 > [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
 
