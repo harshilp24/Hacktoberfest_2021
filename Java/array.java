@@ -1,7 +1,21 @@
 //Java Program to illustrate how to declare, instantiate, initialize  
-//and traverse the Java array.  
+//and traverse the Java array. 
+import java.util.Scanner;
 class Testarray{  
 public static void main(String args[]){  
+  //Take input from user in array and calculate average
+  Scanner sc = new Scanner(System.in);
+  int[] arr = new int[10];
+  int sum=0;
+  System.out.println("Enter 10 values in array: ");
+  for(int i=0;i<10;i++){
+    arr[i] = sc.nextInt();
+    sum+=arr[i];
+  }
+  System.out.println(Average is: "+sum/10);
+  
+  
+  
 int a[]=new int[5];//declaration and instantiation  
 a[0]=10;//initialization  
 a[1]=20;  
